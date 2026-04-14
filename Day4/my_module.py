@@ -1,0 +1,1 @@
+my_favourate_num = 7;
