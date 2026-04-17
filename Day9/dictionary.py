@@ -38,3 +38,4 @@ covid_data = {
         "state" : ["A","B","C"]
     }
 }
+
