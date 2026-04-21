@@ -1,0 +1,22 @@
+data = [
+    {"text": "Vampire's blood color is green", "answer": "False"},
+    {"text": "The Earth revolves around the Sun", "answer": "True"},
+    {"text": "Python is a snake only", "answer": "False"},
+    {"text": "Water boils at 100 degrees Celsius", "answer": "True"},
+    {"text": "Humans can breathe underwater without equipment", "answer": "False"},
+    {"text": "The moon is a planet", "answer": "False"},
+    {"text": "There are 7 days in a week", "answer": "True"},
+    {"text": "Light travels faster than sound", "answer": "True"},
+    {"text": "Fish can live without water", "answer": "False"},
+    {"text": "Mount Everest is the tallest mountain", "answer": "True"},
+    {"text": "The sun rises in the west", "answer": "False"},
+    {"text": "Bats are blind", "answer": "False"},
+    {"text": "Humans have 2 hearts", "answer": "False"},
+    {"text": "Gold is a metal", "answer": "True"},
+    {"text": "Sharks are mammals", "answer": "False"},
+    {"text": "Electricity can flow through water", "answer": "True"},
+    {"text": "Penguins can fly", "answer": "False"},
+    {"text": "Sound needs a medium to travel", "answer": "True"},
+    {"text": "The brain controls the body", "answer": "True"},
+    {"text": "Fire is cold", "answer": "False"}
+]

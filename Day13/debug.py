@@ -74,3 +74,13 @@ def  mutate(a_list):
 
 mutate([1,2,3,5,8,13])    
         
+        
+# level of solve problem        
+# take break 
+# do debug
+# ask from friends
+# run often
+# ask stack overflow 
+# ask ai 
+        
+# more be professional more bigger bug we face        
