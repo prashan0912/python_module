@@ -4,3 +4,7 @@
 
 print("hello"[0]);
 
+# print("12"+12);
+
+
+print(len(123123))

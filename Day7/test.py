@@ -1,20 +1,18 @@
 
 
-# a="word";
+a="word";
 
-# def linear_search(gussed):
-#     for i in a:
-#         if(i==gussed):
-#             return 1;
-#     return 0;   
-
-
+def linear_search(gussed):
+    for i in a:
+        if(i==gussed):
+            return 1;
+    return 0;   
 
 
-# if(linear_search("r")):
-#     print("hai")
-# else:
-#     print("nhi hai")    
+if(linear_search("r")):
+    print("hai")
+else:
+    print("nhi hai")    
 
 
 
