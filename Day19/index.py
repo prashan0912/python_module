@@ -1,6 +1,10 @@
-from turtle import Turtle,Screen
 
+def sum(n1,n2):
+    return n1+n2
 
-trim = Turtle()
+def calculator(n1,n2,sum):
+    return sum(n1,n2)
 
-scre
+result = calculator(12,23,sum)
+
+print(result)

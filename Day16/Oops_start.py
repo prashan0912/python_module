@@ -15,3 +15,12 @@
 # class is a blue [print]
 #  object are real word entity 
 
+class Hotel{
+    waiter,
+    receptionist
+    server
+    cleaner
+    manager
+    chef
+    
+}

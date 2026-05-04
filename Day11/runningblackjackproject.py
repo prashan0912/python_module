@@ -46,7 +46,7 @@ while not is_game_over:
     computer_score = calculate_score(computer_cards)
 
     print(f"Your cards: {user_cards}, current score: {user_score}")
-    print(f"Computer's first card: {computer_cards[0]}")
+    print(f"Computer's card: {computer_cards},current score: {computer_score}")
 
     if user_score == 0 or computer_score == 0 or user_score > 21:
         is_game_over = True

@@ -1,6 +1,4 @@
 
-
-
 import random
 words = ["apple","banana","orange","pineapple","kiwi"]
 
@@ -10,36 +8,43 @@ print(word)
 
 is_gameover = False
 
-guess = input("enter your input char here")
-
-myword = ["_"]*len(word)
+display = ["_"]*len(word)
 live = 6
 chache = []
 
 
-print(myword)
-while is_gameover: 
-    if(live>0):
+while not is_gameover: 
+    print(display)
+    
+    if(live<0):
         print("Game Over")
         is_gameover = True
+        exit()
     
-    guess = input("enter your input char here").lower()
+    guess = input("enter your input char here : ").lower()
     
     for j in chache:
-        print("already text")
-    else:
-        chache.append(guess)
+        if j==guess:
+            print("already text")
+        else:
+            chache.append(guess)
+    print(chache)    
+    found = False;        
+    for index,char in enumerate(word):
+        if char == guess:
+            display[index] = guess
+            found = True
             
-    for i in myword:
-        if i == guess:
-            myword = guess
-            live -= 1
             
+    if not found:
+        print("lose one live")
+        live -= 1
+        
+    if "_" not in display :
+        print("you win")
+        is_gameover = True    
+                 
+                    
             
-
-
-
-            
-
 # while is_gameover:
-print(myword)
+# print(display, live)
