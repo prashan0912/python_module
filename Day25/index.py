@@ -16,10 +16,8 @@
 # print(tempertures)    
 
 import panda as pd
-
 data = pd.read_csv("weather_data.csv")
 
-print(data['temp'])
 
 
         
